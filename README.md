@@ -1,4 +1,4 @@
-## Projeto de Testes Automatizados com Cypress - Objetivo do Projeto
+# Projeto de Testes Automatizados com Cypress - Objetivo do Projeto
 
 Este projeto tem como objetivo aplicar os conhecimentos adquiridos na criação de testes automatizados utilizando o framework Cypress. Utilizando uma versão open-source do GitLab, executada em um container Docker localmente, foi explorado diversas funcionalidades e técnicas para testes automatizados de interface gráfica de usuário (GUI) e de API. O projeto abrange desde a configuração do ambiente de desenvolvimento até a execução de testes em diferentes camadas, com o objetivo de garantir a qualidade e a integridade do software.
 
@@ -53,7 +53,7 @@ Nesse projeto foi explorado as seguintes fases:
     - Testes de leitura de arquivos, incluindo o desafio de clonar um repositório Git via CLI.
 
 ## Créditos
-Este projeto de testes automatizados com Cypress foi realizado como parte do curso Testes Automatizados com Cypress - BIntermediário, oferecido pela Escola Talking About Testing e ministrado por Walmyr Filho. Agradeço ao instrutor e à escola por fornecerem conhecimento valioso sobre testes automatizados.🌟
+Este foi realizado como parte do curso Testes Automatizados com Cypress - Intermediário, oferecido pela Escola Talking About Testing e ministrado por Walmyr Filho. Agradeço ao instrutor e à escola por fornecerem conhecimento valioso sobre testes automatizados.🌟
 
 
 
