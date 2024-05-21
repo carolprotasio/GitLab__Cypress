@@ -1,34 +1,63 @@
-# Testes automatizados com Cypress - Intermediário
+# Projeto de Testes Automatizados com Cypress - Intermediário
 
-👋 Seja bem-vinda(o)!
+Este projeto foi desenvolvido como parte do curso **Testes Automatizados com Cypress - Intermediário**, oferecido pela **Escola Talking About Testing (TAT)**. Durante o curso, exploramos diversas funcionalidades e técnicas para a criação de testes automatizados.
 
-É muito bom tê-la(o) aqui. Tenho certeza que você vai adorar este curso. ❤️
+## Objetivo do Projeto
 
-## O que você vai aprender
+O objetivo deste projeto é aplicar os conhecimentos adquiridos no curso, testando uma aplicação complexa. Utilizaremos uma versão open-source do GitLab, que será executada em um container no ambiente local com o auxílio do Docker.
 
-Durante o curso de testes automatizados com Cypress (intermediário) você vai aprender:
+## Tecnologias Utilizadas
 
-- Como configurar o ambiente local de desenvolvimento
-- Como instalar e configurar o Cypress
-- Como criar testes automatizados de interface gráfica de usuário
-- Como criar testes automatizados de API (com _feedback_ visual no navegador)
-- Como testar APIs que necessitam um _token_ de acesso
-- Como criar testes otimizados e direto-ao-ponto
-- Como salvar a sessão do usuário no navegador para posterior restauração
-- Como validar se a sessão do usuário ainda é válida e como lidar com isso quando a mesma é invalidada
-- Como fazer a limpeza e criação da massa de dados antes do teste começar
-- Como proteger dados sensíveis, tais como senhas e _tokens_ de acesso
-- Como organizar os testes e comandos customizados em diferentes "camadas" (_API, CLI, GUI_)
-- Como estruturar os testes pensando em pré-condições, ações e resultados esperados
-- Como gerar dados aleatórios para uso nos testes automatizados
-- Como habilitar funcionalidades experimentais do Cypress
-- Como executar comandos à nível de sistema operacional
-- E como testar a leitura de arquivos
+Durante o desenvolvimento deste projeto, utilizamos as seguintes tecnologias:
 
-## Vamos começar?
+- **Node.js**: Plataforma para execução de JavaScript no servidor.
+- **Git**: Sistema de controle de versão para gerenciar o código-fonte.
+- **Docker**: Ferramenta para criação e gerenciamento de containers.
+- **Faker**: Biblioteca para geração de dados aleatórios.
+- **Visual Studio Code (VS Code)**: Editor de código utilizado para desenvolvimento.
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+## Preview
+![GitLab - Cypress App](cypress/assets/Gitlab-allSpecs.png)
+![GitLab - Cypress](cypress/assets/gitLab.png)
 
-___
+## Projeto GITLAB com Docker
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+Nesse projeto foi explorado as seguintes fases:
+
+- **Configuração do Ambiente Local de Desenvolvimento**:
+   - preparação do ambiente com as ferramentas necessárias para desenvolver e executar testes automatizados.
+
+- **Instalação e Configuração do Cypress**:
+   - Instalação e configuração do Cypress para criar e executar os testes.
+
+- **Testes Automatizados de Interface Gráfica de Usuário (GUI)**:
+   - Realizado testes para funcionalidades como login, logout, criação de projetos e criação de issues.
+
+- **Testes Automatizados de API com Feedback Visual no Navegador**:
+   - Teste de APIs que requer um _token_ de acesso e como obter feedback visual no navegador.
+- **Gerenciamento de Sessão do Usuário**:
+   - Salvar e restaurar a sessão do usuário no navegador, além de validar com _token_ de acesso.
+
+- **Limpeza e Criação da Massa de Dados**:
+   - Criação de testes com pré-condições, ações e resultados esperados.
+
+- **Proteção de Dados Sensíveis**:
+   - Proteção de informações sensíveis, como senhas e tokens de acesso.
+
+- **Organização dos Testes em Diferentes Camadas**:
+   - Estruturação dos testes em camadas (API, CLI, GUI) para melhor organização.
+
+- **Geração de Dados Aleatórios**:
+   - Gerar dados aleatórios para uso nos testes automatizados.
+
+- **Execução de Comandos à Nível de Sistema Operacional**:
+    - Executar comandos diretamente no sistema operacional durante os testes.
+
+- **Teste de Leitura de Arquivos**:
+    - Testes de leitura de arquivos, incluindo o desafio de clonar um repositório Git via CLI.
+
+## Créditos
+Este projeto de testes automatizados com Cypress foi realizado como parte do curso Testes Automatizados com Cypress - BIntermediário, oferecido pela Escola Talking About Testing e ministrado por Walmyr Filho. Agradeço ao instrutor e à escola por fornecerem conhecimento valioso sobre testes automatizados.🌟
+
+
+
