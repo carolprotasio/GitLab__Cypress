@@ -1,10 +1,6 @@
-# Projeto de Testes Automatizados com Cypress - Intermediário
+## Projeto de Testes Automatizados com Cypress - Objetivo do Projeto
 
-Este projeto foi desenvolvido como parte do curso **Testes Automatizados com Cypress - Intermediário**, oferecido pela **Escola Talking About Testing (TAT)**. Durante o curso, exploramos diversas funcionalidades e técnicas para a criação de testes automatizados.
-
-## Objetivo do Projeto
-
-O objetivo deste projeto é aplicar os conhecimentos adquiridos no curso, testando uma aplicação complexa. Utilizaremos uma versão open-source do GitLab, que será executada em um container no ambiente local com o auxílio do Docker.
+Este projeto tem como objetivo aplicar os conhecimentos adquiridos na criação de testes automatizados utilizando o framework Cypress. Utilizando uma versão open-source do GitLab, executada em um container Docker localmente, foi explorado diversas funcionalidades e técnicas para testes automatizados de interface gráfica de usuário (GUI) e de API. O projeto abrange desde a configuração do ambiente de desenvolvimento até a execução de testes em diferentes camadas, com o objetivo de garantir a qualidade e a integridade do software.
 
 ## Tecnologias Utilizadas
 
